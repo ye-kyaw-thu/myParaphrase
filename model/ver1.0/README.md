@@ -1,5 +1,72 @@
 # Three Siamese Models
 
+I used the default configuration files of multihead-siamese-nets for training three Siamese models.  
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config$ tree
+.
+├── main.ini
+└── model
+    ├── cnn.ini
+    ├── multihead.ini
+    └── rnn.ini
+
+1 directory, 4 files
+```
+
+Main or common setting for three Siamese models are as follows:  
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config$ cat main.ini
+[TRAINING]
+num_epochs = 10
+batch_size = 512
+eval_every = 20
+learning_rate = 0.001
+checkpoints_to_keep = 5
+save_every = 100
+log_device_placement = False
+
+[DATA]
+logs_path = logs
+model_dir = model_dir
+
+[PARAMS]
+embedding_size = 64
+loss_function = MSE
+char_embeddings = False(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config$
+```
+
+Specific hyperparameters for RNN-Siamese model:  
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config/model$ cat rnn.ini
+[PARAMS]
+hidden_size = 128
+cell_type = GRU
+```
+
+Specific hyperparameters for CNN-Siamese model:  
+
+```
+bidirectional = True(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config/model$ cat cnn.ini
+[PARAMS]
+num_filters = 50,50,50
+filter_sizes = 2,3,4
+dropout_rate = 0.0
+```
+
+Specific hyperparameters for Transformer-Siamese model:  
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config/model$ cat multihead.ini
+[PARAMS]
+num_blocks = 2
+num_heads = 8
+use_residual = False
+dropout_rate = 0.0(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config/model$
+```
+
 ## RNN-Siamese Model
 
 ```
