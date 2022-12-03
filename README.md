@@ -10,7 +10,6 @@ Paraphrase detection or semantic similarity of necessity is to understand the se
 
 Version 1.0 Release Date: 3 December 2022  
 
-| 
 ## Contributors 
 
 Myint Myint Htay  
