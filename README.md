@@ -10,16 +10,72 @@ Paraphrase detection or semantic similarity of necessity is to understand the se
 
 Version 1.0 Release Date: 3 December 2022  
 
+| 
 ## Contributors 
 
 Myint Myint Htay  
 Ye Kyaw Thu  
 
+## Experimental Setting for Demo Running 
+
+We used only training data for demo running. For the three Siamese Neural Network model building, we used  [https://github.com/tlatkowski/multihead-siamese-nets](https://github.com/tlatkowski/multihead-siamese-nets).  
+
+Some important hyperparameters for all three models are as follows:  
+
+```
+[TRAINING]
+num_epochs = 10
+batch_size = 512
+eval_every = 20
+learning_rate = 0.001
+checkpoints_to_keep = 5
+save_every = 100
+log_device_placement = False
+
+[DATA]
+logs_path = logs
+model_dir = model_dir
+
+[PARAMS]
+embedding_size = 64
+loss_function = MSE
+char_embeddings = False
+```
+
+Specific hyperparameter for RNN:  
+
+```
+[PARAMS]
+hidden_size = 128
+cell_type = GRU
+bidirectional = True
+```
+
+Specific hyperparameter for CNN:
+
+```
+[PARAMS]
+num_filters = 50,50,50
+filter_sizes = 2,3,4
+dropout_rate = 0.0
+```
+
+Specific hyperparameter for Transformer:
+
+```
+[PARAMS]
+num_blocks = 2
+num_heads = 8
+use_residual = False
+dropout_rate = 0.0
+```
+
+
 ## Experimental Results 
 
   
-<div align="center">
-  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)
+</div> 
+  Table.2 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)
  
 |Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
 |:-----|-----:|-----:|-----:|-----:|
