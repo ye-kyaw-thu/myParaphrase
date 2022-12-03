@@ -6,7 +6,7 @@ Paraphrase Dataset for Burmese (Myanmar Language)
 ## Experimental Results 
 
 <p align="center">
-<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/accuracy-loss-of-3-siamese-model.png" alt="Accuracy and loss graphs for 3 Siamese models" width="600"/>  
+<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/accuracy-loss-of-3-siamese-model.png" alt="Accuracy and loss graphs for 3 Siamese models" width="800"/>  
 </p>  
 <div align="center">
   Fig.1 Accuracy and loss comparison graphs for three Siamese models (RNN-Siamese, CNN-Siamese and Transformer-Siamese) with myParaphrase corpus (version 1.0)  
