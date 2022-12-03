@@ -15,7 +15,7 @@ Paraphrase Dataset for Burmese (Myanmar Language)
 <br />
 
 <p align="center">
-<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-loss-fig4.png" alt="Loss Graph for 3 Siamese Models width="500"/>  
+<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-loss-fig4.png" alt="Loss Graph for 3 Siamese Models width="300"/>  
 </p>  
 <div align="center">
   Fig.3 Loss graph for three Siamese model with myParaphrase (version 1.0)  
