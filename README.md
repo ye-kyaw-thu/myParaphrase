@@ -17,18 +17,19 @@ Ye Kyaw Thu
 
 ## Experimental Results 
 
-<p align="center">
   
 <div align="center">
-  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)  
+
 </div> 
 
+</center>
+  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)  
 |Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
-|-----|-----|-----|-----|-----|
+|:-----|-----:|-----:|-----:|----:-|
 |bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |
 |CNN	| 0.88	|	0.89 | 0.88	| 0m33.637s |
 |Transformer | 0.81	| 0.82 | 0.81	| 1m38.253s	|
-</p>  
+</center>
 
 
 
