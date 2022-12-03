@@ -6,6 +6,8 @@ Release Date: 3 December 2022
 
 ### Folder Structure
 
+We prepared tsv, csv and csv-qqp formats for doing some experiments.  
+
 ```
 (siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/corpus/ver1.0$ tree
 .
@@ -36,6 +38,34 @@ Release Date: 3 December 2022
     └── train.txt
 
 5 directories, 20 files
+```
+
+### Filesize Information
+
+Generally filesize are the same and just different header line contain or not.  
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/corpus/ver1.0/tsv$ wc *
+   1000   16905  202235 closed-test
+   1000   12674  138579 open-test.final.manual
+  40461  672370 8350480 train.txt
+  42461  701949 8691294 total
+```
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/corpus/ver1.0/csv$ wc *
+   1000   14906  206125 closed-test.csv
+   1000   10706  142470 open-test.final.manual.csv
+  40461  591452 8580488 train.csv
+  42461  617064 8929083 total
+```
+
+```
+(siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/corpus/ver1.0/4multihead-siamese$ wc *
+   1001   14907  208159 closed-test-qqp.csv
+   1001   10699  144365 test.csv
+  40462  591453 9529402 train.csv
+  42464  617059 9881926 total
 ```
 
 ### Folder Information and Data Format
