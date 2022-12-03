@@ -73,9 +73,10 @@ dropout_rate = 0.0
 ## Experimental Results 
 
   
-</div> 
-  Table.2 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)
- 
+<p align="center">
+  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)
+</p>
+<div align="center">
 |Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
 |:-----|-----:|-----:|-----:|-----:|
 |bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |
