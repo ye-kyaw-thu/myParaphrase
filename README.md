@@ -26,6 +26,15 @@ Ye Kyaw Thu
 
 <br />
 
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-fig1.png" alt="Accuracy graphs for 3 Siamese models" width="800"/>  
+</p>  
+<div align="center">
+  Fig.1 Accuracy details for three Siamese models (RNN-Siamese, CNN-Siamese and Transformer-Siamese) with myParaphrase corpus (version 1.0)  
+</div> 
+
+<br />
+
 
 ## Citation
 
