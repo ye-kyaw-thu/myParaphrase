@@ -9,16 +9,16 @@ Paraphrase Dataset for Burmese (Myanmar Language)
 <img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-accuracy-fig3.png" alt="Accuracy Graph for 3 Siamese Models" width="600"/>  
 </p>  
 <div align="center">
-  Fig.3 Accuracy graph for three Siamese models with myParaphrase (version 1.0)
+  Fig.1 Accuracy graph for three Siamese models with myParaphrase (version 1.0)
 </div> 
 
 <br />
 
 <p align="center">
-<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-loss-fig4.png" alt="Loss Graph for 3 Siamese Models width="300"/>  
+<img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/evaluation-on-3-siamese-models-loss-fig4.png" alt="Loss Graph for 3 Siamese Models width="200"/>  
 </p>  
 <div align="center">
-  Fig.3 Loss graph for three Siamese model with myParaphrase (version 1.0)  
+  Fig.2 Loss graph for three Siamese model with myParaphrase (version 1.0)  
 </div> 
 
 <br />
