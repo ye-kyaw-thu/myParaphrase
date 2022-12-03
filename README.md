@@ -78,11 +78,13 @@ dropout_rate = 0.0
 </p>
 
 <div align="center">
-|Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
-|:-----|-----:|-----:|-----:|-----:|
-|bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |
-|CNN	| **0.88**	|	**0.89** | **0.88**	| **0m33.637s** |
-|Transformer | 0.81	| 0.82 | 0.81	| 1m38.253s	|
+  
+|Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |  
+|:-----|-----:|-----:|-----:|-----:|  
+|bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |  
+|CNN	| **0.88**	|	**0.89** | **0.88**	| **0m33.637s** |  
+|Transformer | 0.81	| 0.82 | 0.81	| 1m38.253s	|  
+  
 </div>
 
 <br />
