@@ -171,5 +171,5 @@ Read some papers:
 
 ## To Do
 
-- [1] to update the myParaphrase corpus
-- [2] to study on longer Burmese sentences and paragraph level  
+- to update the myParaphrase corpus
+- to study on longer Burmese sentences and paragraph level  
