@@ -26,7 +26,9 @@ Some run time errors were solved based on followings:
 
 Read some papers:  
 
-[4] @inproceedings{NIPS2017_3f5ee243,
+[4] 
+```
+@inproceedings{NIPS2017_3f5ee243,
  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
@@ -37,8 +39,11 @@ Read some papers:
  volume = {30},
  year = {2017}
 }
+```
 
-[5] @inproceedings{ranasinghe-etal-2019-semantic,
+[5] 
+```
+@inproceedings{ranasinghe-etal-2019-semantic,
     title = "Semantic Textual Similarity with {S}iamese Neural Networks",
     author = "Ranasinghe, Tharindu  and
       Orasan, Constantin  and
@@ -53,9 +58,14 @@ Read some papers:
     pages = "1004--1011",
     abstract = "Calculating the Semantic Textual Similarity (STS) is an important research area in natural language processing which plays a significant role in many applications such as question answering, document summarisation, information retrieval and information extraction. This paper evaluates Siamese recurrent architectures, a special type of neural networks, which are used here to measure STS. Several variants of the architecture are compared with existing methods",
 }
+```
 
-[6] @inproceedings{Koch2015SiameseNN,
+[6]
+```
+@inproceedings{Koch2015SiameseNN,
   title={Siamese Neural Networks for One-Shot Image Recognition},
   author={Gregory R. Koch},
   year={2015}
 }
+```
+
