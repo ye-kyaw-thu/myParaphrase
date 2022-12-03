@@ -11,3 +11,51 @@ Myint Myint Htay, Ye Kyaw Thu, Hnin Aye Thant, Thepchai Supnithi, "Deep Siamese 
 
 If you want to use three Siamese models that we trained with myParaphrase (version 1.0) and please cite the following link:  
 
+https://github.com/ye-kyaw-thu/myParaphrase  
+
+## Reference
+
+We did paraphrase classification experiments with "multihead-siamese-nets":  
+
+[1] [https://github.com/tlatkowski/multihead-siamese-nets](https://github.com/tlatkowski/multihead-siamese-nets)
+
+Some run time errors were solved based on followings:  
+
+[2] [https://stackoverflow.com/questions/55318626/module-tensorflow-has-no-attribute-logging](https://stackoverflow.com/questions/55318626/module-tensorflow-has-no-attribute-logging)
+[3] [https://stackoverflow.com/questions/61102281/dataframe-object-has-no-attribute-as-matrix](https://stackoverflow.com/questions/61102281/dataframe-object-has-no-attribute-as-matrix)
+
+Read some papers:  
+
+[4] @inproceedings{NIPS2017_3f5ee243,
+ author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \L ukasz and Polosukhin, Illia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {Attention is All you Need},
+ url = {https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+
+[5] @inproceedings{ranasinghe-etal-2019-semantic,
+    title = "Semantic Textual Similarity with {S}iamese Neural Networks",
+    author = "Ranasinghe, Tharindu  and
+      Orasan, Constantin  and
+      Mitkov, Ruslan",
+    booktitle = "Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2019)",
+    month = sep,
+    year = "2019",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd.",
+    url = "https://aclanthology.org/R19-1116",
+    doi = "10.26615/978-954-452-056-4_116",
+    pages = "1004--1011",
+    abstract = "Calculating the Semantic Textual Similarity (STS) is an important research area in natural language processing which plays a significant role in many applications such as question answering, document summarisation, information retrieval and information extraction. This paper evaluates Siamese recurrent architectures, a special type of neural networks, which are used here to measure STS. Several variants of the architecture are compared with existing methods",
+}
+
+[6] @inproceedings{Koch2015SiameseNN,
+  title={Siamese Neural Networks for One-Shot Image Recognition},
+  author={Gregory R. Koch},
+  year={2015}
+}
