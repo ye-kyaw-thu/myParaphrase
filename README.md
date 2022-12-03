@@ -3,6 +3,9 @@ Paraphrase Dataset for Burmese (Myanmar Language)
 
 Paraphrase detection or semantic similarity of necessity is to understand the sentence as a whole sentence, but not just finding synonyms of the words. It is an important research area in natural language processing that plays a significant role in many applications such as question answering, summarization, information retrieval, and extraction. To the best of our knowledge, no studies have been conducted on Burmese (Myanmar language) paraphrase or not paraphrase detection and classification. We did paraphrase classification experiments beased on both traditional machine learning methods and deep Siamese neural networks. One more contribution is the development of the human-annotated combination of Burmese paraphrase and non-paraphrase corpus that contained 40,461 sentence pairs and open-test data with 1,000 sentence pairs.
 
+## Introduction in Burmese (Myanmar Language)  
+
+ဒီ corpus က paraphrase လို့ခေါ်တဲ့ စကားလုံး မတူတာတွေကို သုံးထားပေမဲ့ အဓိပ္ပါယ်အားဖြင့် တူတယ်၊ မတူဘူး ဆိုတာကို ကွန်ပျူတာက ခွဲခြား သိနိုင်တဲ့ မော်ဒယ်ကို စမ်းဆောက်ကြည့်ဖို့အတွက် အသုံးပြုဖို့ ရည်ရွယ်ပြီး ဆောက်ခဲ့တဲ့ corpus တစ်ခုပါ။ မြန်မာစာ NLP သုတေသန အလုပ်အတွက် အသုံးဝင်ပါလိမ့်မယ်။ ကျွန်တော်နဲ့ ကျွန်တော့ Ph.D. ကျောင်းသူ မမြင့်မြင့်ဌေး တို့က ၂နှစ်ကျော် အချိန်ယူ ပြင်ဆင်ထားခဲ့ကြတာပါ။ စာကြောင်းရေ စုစုပေါင်း လေးသောင်းလေးရာကျော် ရှိပါတယ်။ open-test data အနေနဲ့လည်း သပ်သပ် စာကြောင်းရေ တစ်ထောင်ကို ပြင်ဆင်ခဲ့ကြပါတယ်။ နောက်ပိုင်း အခြေအနေ ပေးရင်ပေးသလို ဆက်လက်ပြီး corpus ကို တည်ဆောက်သွားဖို့ ရည်ရွယ်ထားပါတယ်။   
 
 **Still Preparing and We will release myParaphrase version 1.0 soon**
 
