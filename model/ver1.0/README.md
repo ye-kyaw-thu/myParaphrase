@@ -1,6 +1,6 @@
 # Three Siamese Models
 
-I used the default configuration files of multihead-siamese-nets for training three Siamese models.  
+I used the default configuration files of [multihead-siamese-nets](https://github.com/tlatkowski/multihead-siamese-nets) for training three Siamese models.  
 
 ```
 (siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config$ tree
