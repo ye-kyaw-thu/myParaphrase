@@ -19,11 +19,10 @@ Ye Kyaw Thu
 
   
 <div align="center">
-
+  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)
 </div> 
 
-</center>
-  Table.1 Evaluation results on RNN-Siamese, CNN-Siamese and Transformer-Siamese with myParaphrase corpus (version 1.0)  
+<center> 
 |Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
 |:-----|-----:|-----:|-----:|----:-|
 |bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |
@@ -32,8 +31,6 @@ Ye Kyaw Thu
 </center>
 
 
-
-<p align="center">
 <img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/accuracy-loss-of-3-siamese-model.png" alt="Accuracy and loss graphs for 3 Siamese models" width="800"/>  
 </p>  
 <div align="center">
