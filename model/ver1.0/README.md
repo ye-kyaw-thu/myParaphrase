@@ -67,7 +67,7 @@ use_residual = False
 dropout_rate = 0.0(siamese) yekyaw.thu@gpu:~/exp/siamese/multihead-siamese-nets/config/model$
 ```
 
-## RNN-Siamese Model
+## Checkpoints and Evaluation Results for RNN-Siamese Model
 
 ```
 (siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/model/ver1.0/exp-RNN-MYPARA$ cat checkpoint
@@ -93,7 +93,7 @@ num_tests = 4045
 (siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/model/ver1.0/exp-RNN-MYPARA$
 ```
 
-## CNN-Siamese Model
+## Checkpoints and Evaluation Results for CNN-Siamese Model
 
 
 ```
@@ -120,7 +120,7 @@ num_tests = 4045
 (siamese) yekyaw.thu@gpu:~/exp/siamese/myParaphrase/model/ver1.0/exp-CNN-MYPARA$
 ```
 
-## Transformer-Siamese Model
+## Checkpoints and Evaluation Results for Transformer-Siamese Model
 
 
 ```
