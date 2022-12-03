@@ -10,12 +10,21 @@ Paraphrase detection or semantic similarity of necessity is to understand the se
 
 Version 1.0 Release Date: 3 December 2022  
 
-## Contributors
+## Contributors 
 
 Myint Myint Htay  
 Ye Kyaw Thu  
 
 ## Experimental Results 
+
+
+
+|Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |
+|-----|-----|-----|-----|-----|
+|bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |
+|CNN	| 0.88	|	0.89 | 0.88	| 0m33.637s |
+|Transformer | 0.81	| 0.82 | 0.81	| 1m38.253s	|
+
 
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myParaphrase/blob/main/fig/accuracy-loss-of-3-siamese-model.png" alt="Accuracy and loss graphs for 3 Siamese models" width="800"/>  
