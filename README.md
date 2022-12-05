@@ -104,7 +104,7 @@ dropout_rate = 0.0
 
 <div align="center">
   
-|Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Epoch Time |  
+|Model |	Mean-Dev-Accuracy	| Last-Dev-Accuracy |	Test-Acc| Training/Validation Time |  
 |:-----|-----:|-----:|-----:|-----:|  
 |bi-RNN	| 0.84 | 0.87	| 0.85	|  2m2.830s |  
 |CNN	| **0.88**	|	**0.89** | **0.88**	| **0m33.637s** |  
