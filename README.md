@@ -136,7 +136,7 @@ dropout_rate = 0.0
 
 If you want to use myParaphrase corpus (version 1.0) in your research and we'd appreciate if you use the following reference:  
 
-Myint Myint Htay, Ye Kyaw Thu, Hnin Aye Thant, Thepchai Supnithi, "Deep Siamese Neural Network Vs Random Forest for Myanmar Language Paraphrase Classification",  Journal of Intelligent Informatics and Smart Technology, Oct 2nd Issue, 2022, pp. 25-1 to 25-9.  (Submitted Feb 21, 2022; accepted July 17, 2022; published on 31 Oct 2022) [[Paper]]([https://ph05.tci-thaijo.org/index.php/JIIST/article/view/98/94](https://ph05.tci-thaijo.org/index.php/JIIST/article/view/98/94))  
+Myint Myint Htay, Ye Kyaw Thu, Hnin Aye Thant, Thepchai Supnithi, "Deep Siamese Neural Network Vs Random Forest for Myanmar Language Paraphrase Classification",  Journal of Intelligent Informatics and Smart Technology, Oct 2nd Issue, 2022, pp. 25-1 to 25-9.  (Submitted Feb 21, 2022; accepted July 17, 2022; published on 31 Oct 2022) [[Paper]](https://ph05.tci-thaijo.org/index.php/JIIST/article/view/98/94)  
 
 If you want to use three Siamese models that we trained with myParaphrase (version 1.0) and please cite the following link:  
 
